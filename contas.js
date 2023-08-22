@@ -18,9 +18,10 @@ function divisao(a,b)
     return a/b;
 }
 
-export {
-        soma,
-        subtracao,
-        divisao,
-        multiplicacao
-}
+module.exports = {
+    soma,
+    subtracao,
+    multiplicacao,
+    divisao,
+  };
+
